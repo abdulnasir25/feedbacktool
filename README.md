@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Steps to follow and run the Project
+
+- Clone the Repository: "git clone https://github.com/abdulnasir25/feedbacktool.git"
+- Run composer: "composer install"
+- Create an .env file and configure your database: "cp .env.example .env"
+- Generate a new application key: "php artisan key:generate"
+- Run "php artisan migrate:seed" to get the dummy data and through this seeder command 10 different users, 50 Feedbacks with replies from different users will be created.
+- Run your server: "php artisan serve"
+
+- For login, use: admin@admin.com / password
+- Also, you can create your own user by registering it. and you will be able to operate a CRUD operation for Feedback.
+- On the HOME PAGE, you will be able to see different Feedbacks from different user and give Replies to them,
+- Also, you can mention any of the USER in you reply to the feedback.
+
+Thanks
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
